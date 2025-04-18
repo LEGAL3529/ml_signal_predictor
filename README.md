@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="preview.png" alt="Strategy Preview" width="800">
+</p>
 
 # 📈 ML Signal Predictor
 
