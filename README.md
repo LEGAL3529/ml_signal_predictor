@@ -1,7 +1,6 @@
 <p align="center">
   <img src="preview.png" alt="Strategy Preview" width="800">
 </p>
-
 # 🧠 Quant Strategy: ML-Based Signal Predictor
 
 This project demonstrates a machine learning pipeline that:
