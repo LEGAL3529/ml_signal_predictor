@@ -2,23 +2,27 @@
   <img src="preview.png" alt="Strategy Preview" width="800">
 </p>
 
-# 📈 ML Signal Predictor
+# 🧠 Quant Strategy: ML-Based Signal Predictor
 
-This project demonstrates a basic signal prediction model using logistic regression. The script:
-- Loads time series market data
-- Trains a classifier on `close` and `volume`
-- Predicts BUY / SELL / HOLD signals
-- Generates a graph of the prediction
+This project demonstrates a machine learning pipeline that:
+- Loads historical market data with signals.
+- Trains a model to classify BUY, SELL, or HOLD signals.
+- Evaluates prediction accuracy.
+- Plots a final chart with predicted signals.
 
-## Files Included
+## 🚀 Features
+- Signal labeling logic (BUY, SELL, HOLD)
+- Logistic Regression model
+- Accuracy evaluation
+- Visualization of predictions on chart
+- Exported `.pkl` model for reuse
 
-- `predict_chart.py` — Main script for training and plotting
-- `data/sample_data_with_signals.csv` — Sample data with labeled signals
-- `model.pkl` — Saved trained model
-- `preview.png` — Visual preview of prediction signals
-
-## Run it
+## 📊 Requirements
+- Python 3.10+
+- pandas
+- scikit-learn
+- matplotlib
+- joblib
 
 ```bash
-python predict_chart.py
-```
+pip install -r requirements.txt
